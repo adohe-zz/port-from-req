@@ -1,0 +1,31 @@
+{
+  "name": "port-from-req",
+  "version": "1.0.0",
+  "description": "Parse port from IncomingMessage, maybe useful for proxy server, interceptor server even load balance.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdoHe/port-from-req.git"
+  },
+  "keywords": [
+    "port",
+    "http",
+    "request"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "author": "TonyHe <coolhzb@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdoHe/port-from-req/issues"
+  },
+  "homepage": "https://github.com/AdoHe/port-from-req"
+}
